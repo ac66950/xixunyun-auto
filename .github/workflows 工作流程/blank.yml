@@ -33,4 +33,6 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
           npm install
+          
           node app.js
+            
